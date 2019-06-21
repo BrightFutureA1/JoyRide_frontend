@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #9f150f; */
+  background-image: url(https://i.imgur.com/PehD7kL.jpg);
+  
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+ p {
+   font-weight: bold;
+   color: white;
+   font-size: x-large;
+   height: 70px;
+   display: block;
+   padding: 20px 0px;
+   width: 100%;
+   height: 100%;
+   background-color: #a91a16;
+
+   
+ }
+ aside  {
+   width: 100%;
+   padding: 12px 20px;
+  margin: 8px 0;
+  /* display: inline-block; */
+
+  border-radius: 4px;
+  box-sizing: border-box;
+ 
+ }
+
+ input {
+   height: 40px;
+  
+ }
+
+ .input-submit {
+
+   margin: 5px;
+   border: 5px solid #a91a16;
+   height: 42px;
+ } 
+ 
+ 
+
+ .input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: right;
+}
+
+.input[type=submit]:hover {
+  background-color: #45a049;
+
+}
+
+.div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+ 
+header {
+  width: 100%;
+}
+
+h1 {
+  color: black;
+  font-size: large;
+  height: 110;
+  width: 75px;
+  text-align: center;
+  font: Helvetica,Arial, sans-serif;
+  /* margin-top: 50px; */
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+.form {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+}
+
+ .card {
+  width: 250px;
+  height: 385px;
+   margin: 10px; 
+   position: relative; 
+   border: 9px solid white; 
+   color: b; 
+   /* margin: 0 auto; */
+  /* display:flex; */
+  background: lightgray;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-content: center;
+  align-items: center;
+  text-align: center; 
+ } 
+
+ img {
+  width: 245px;
+  height: 200px;
+   border: 4px solid black; 
+   margin: 0; 
+   flex-direction: row;
+  } 
+
+  .zone-wrapper {
+    width: 100%;
+  }
+  button {
+   background: #a91a16;
+   color: white;
+    height: 20px;
+  }
+   input {
+    /* bottom: 0;
+    box-sizing: border-box;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    padding-inline-start: 20px;
+    position: absolute;
+    top: 0;
+    width: 100%; */
+    border: silver
+} 
+
+.container {
+  margin: 0 auto;
+  display:flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap; 
+   justify-content: center;
+  align-content: center;
+  /* align-items: center; */
+  text-align: center; 
+  /* background-color: #a91a16; */
+}
+
+.the-trick {
+  /* // Retains width/height of original word */
+  display: inline-block;
+  position: relative;
+  padding: 4px 16px;
+  right: 9999px;
+}
+
+   :after {
+    content: "\1f680";
+    position: absolute;
+    top: 2px;
+    right: -9999px;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    color: #fff;
+    font-size: 50px;
+    line-height: 30.8px;
+    font-family: 'entypo', sans-serif;
+  } 
+
+  .delete, .edit  {
+  display: flex;
+  justify-content: space-evenly;
+  background: transparent;
+  color: #F05557;
+  height: 20px;
+  }
+  /* .check {
+    opacity: .4;
+  } */
